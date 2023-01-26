@@ -1,0 +1,76 @@
+@font-face {
+    font-family: coding;
+    src: url(./font/lm_mono_light/lmmonolt10-boldoblique.otf);
+}
+body{
+    font-family: coding;
+}
+
+nav{
+    margin: 2px;
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+    border-radius: 10px;
+}
+
+#ul_style{
+    list-style-type:  lower-alpha;
+}
+
+.size{
+    width: 40px;
+    height: 40px;
+}
+
+#card{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+    border-radius: 10px;
+}
+
+.card{
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+
+.btn_1{
+    position: relative;
+    left: 1%;
+    box-shadow: 5px 5px 5px rgb(82, 82, 82);
+}
+.btn_2{
+   position: relative;
+   top: 23px;
+}
+.btn_3{
+    position: relative;
+    top: 70px;
+ }
+ .btn_4{
+    position: relative;
+    top: 50px;
+ }
+ .btn_5{
+    position: relative;
+    top: 28px;
+ }
+ 
+ .btn_7{
+    position: relative;
+    top: 50px;
+ }
+
+
+
+.img{
+    height: auto;
+    width: auto;
+    margin: 2px;
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+    border-radius: 10px;
+}
+
+.carousel-item{
+    border-radius: 10px;
+}
