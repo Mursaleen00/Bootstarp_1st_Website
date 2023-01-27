@@ -9,7 +9,7 @@ body{
 
 nav{
     margin: 2px;
-    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+    /* box-shadow: 5px 5px 10px rgb(82, 82, 82); */
     border-radius: 10px;
 }
 
@@ -37,7 +37,7 @@ nav{
 
 .btn_1{
     position: relative;
-    left: 1%;
+    /* left: 1%; */
     box-shadow: 5px 5px 5px rgb(82, 82, 82);
 }
 /* .btn_2{
@@ -62,7 +62,9 @@ nav{
     top: 50px;
  } */
 
-
+.card_1{
+    margin-top: 5px;
+}
 
 .img{
     height: auto;
@@ -70,6 +72,7 @@ nav{
     margin: 2px;
     box-shadow: 5px 5px 10px rgb(82, 82, 82);
     border-radius: 10px;
+    
 }
 
 .carousel-item{
