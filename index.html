@@ -1,3 +1,168 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Program</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark col-12" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt="logo" class="size"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Course
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./pages/web_design.html">Web Design</a></li>
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">HTMl</a></li>
+              <li><a class="dropdown-item" href="#">CSS</a></li>
+              <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+              <li><a class="dropdown-item" href="#">Java Script</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- carousel -->
+  <div class="img rounded col-xl-2">
+    <div id="carouselExampleAutoplaying" class="carousel slide w-80" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/code_1.jpg" class="d-block rounded w-100" alt="...">
+        </div>
+
+        <div class="carousel-item">
+          <img src="./img/code_2.jpg" class="d-block rounded w-100" alt="...">
+        </div>
+
+        <div class="carousel-item">
+          <img src="./img/code_3.jpg" class="d-block rounded w-100" alt="...">
+        </div>
+
+        <div class="carousel-item">
+          <img src="./img/code_4.jpg" class="d-block rounded w-100" alt="...">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+  <!-- card -->
+  <div id="card" class="bg-dark row">
+
+
+  <div class="card m-3 col-xl-2 col-xxl-2 col-lg-4 col-md-4 col-sm-6 col-12" style="width: 18rem;">
+    <img src="./img/design.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Web Design</h5>
+      <p class="card-text">Web design is the process of creating and designing websites that are both visually appealing and easy to navigate using various tools and technologies.</p>
+      <a href="./pages/web_design.html" class="btn btn-outline-dark btn_1 btn_2">Detail</a>
+    </div>
+  </div>
+
+    <div class="card m-3 col-xl-2 col-xxl-2 col-lg-4 col-md-4 col-sm-6 col-12" style="width: 18rem;">
+      <img src="./img/html_logo.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HTML 5</h5>
+        <p class="card-text">HTML (Hypertext Markup Language) is a markup language used for creating and structuring the content of a website.</p>
+        <a href="#" class="btn btn-outline-dark btn_1 btn_3 col-sm-6 col-12">Detail</a>
+      </div>
+    </div>
+
+    <div class="card m-3 col-xl-2 col-xxl-2 col-lg-4 col-md-4 col-sm-6 col-12" style="width: 18rem;">
+      <img src="./img/css_logo.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CSS</h5>
+        <p class="card-text">CSS (Cascading Style Sheets) is a stylesheet language used for describing the presentation and layout of a document written in a markup language.</p>
+        <a href="#" class="btn btn-outline-dark btn_1 btn_4">Detail</a>
+      </div>
+    </div>
+
+    <div class="card m-3 col-xl-2 col-xxl-2 col-lg-4 col-md-4 col-sm-6 col-12" style="width: 18rem;">
+      <img src="./img/bootstrap.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">BOOTSTRAP</h5>
+        <p class="card-text">Bootstrap is a popular open-source front-end development framework that helps developers create responsive, mobile-first websites and web applications quickly and easily.</p>
+        <a href="#" class="btn btn-outline-dark btn_1 btn_5">Detail</a>
+      </div>
+    </div>
+
+    
+    
+    <div class="card m-3 col-xl-2 col-xxl-2 col-lg-4 col-md-4 col-sm-6 col-12" style="width: 18rem;">
+      <img src="./img/java_logo.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">JAVA SCRIPT</h5>
+        <p class="card-text">JavaScript is a programming language used for creating interactive and dynamic elements on web pages and web applications.</p>
+        <a href="#" class="btn btn-outline-dark btn_1 btn_7">Detail</a>
+      </div>
+    </div>
+    
+    
+    <div class="card m-3 col-xl-2 col-xxl-2 col-lg-4 col-md-4 col-sm-6 col-12" style="width: 18rem;">
+      <img src="./img/development.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Web Development</h5>
+        <p class="card-text">Web development is the process of creating and maintaining websites, including the coding and programming of web applications, and the design and layout of website interfaces.</p>
+        <a href="#" class="btn btn-outline-dark btn_1 btn_6">Detail</a>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+=======
 <!DOCTYPE html>
 <html lang="en">
 
@@ -159,4 +324,5 @@
     crossorigin="anonymous"></script>
 </body>
 
+>>>>>>> 1dbba08c2fdb9b3612da5c5fa6ed01827181ae62
 </html>
