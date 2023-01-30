@@ -40,27 +40,7 @@ nav{
     /* left: 1%; */
     box-shadow: 5px 5px 5px rgb(82, 82, 82);
 }
-/* .btn_2{
-   position: relative;
-   top: 23px;
-}
-.btn_3{
-    position: relative;
-    top: 70px;
- }
- .btn_4{
-    position: relative;
-    top: 50px;
- }
- .btn_5{
-    position: relative;
-    top: 28px;
- }
- 
- .btn_7{
-    position: relative;
-    top: 50px;
- } */
+
 
 .card_1{
     margin-top: 5px;
@@ -78,4 +58,9 @@ nav{
 .carousel-item{
     border-radius: 10px;
 
+}
+
+
+#top{
+    
 }
